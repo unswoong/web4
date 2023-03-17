@@ -112,6 +112,10 @@ header.hide-header {
   font-weight: bold;
 }
 
+.hamberger-menu > a:hover {
+  color: #00b8ff;
+}
+
 .hamberger-menu > a {
   color: #eee;
   display: block;
@@ -130,7 +134,7 @@ header.hide-header {
   justify-content: flex-end;
 }
 
-.hamberger-modal .hide-modal {
+.hamberger-modal.hide-modal {
   opacity: 0;
   transition: 0.5s;
 }
