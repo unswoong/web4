@@ -11,7 +11,17 @@
 </head>
 
 <body>
-  <header class="scrolled">
+  <div id="app-btn">
+    <a href="#">
+      <span class="app-text">쏘카 앱 다운로드</span>
+      <figure class="app-img-wrap">
+        <img src="../img/i-appicon.svg" alt="쏘카 앱 아이콘" class="app-img">
+      </figure>
+      <div id="app-blue"></div>
+    </a>
+  </div>
+
+  <header>
     <a href="#" class="main-link">
       <h1 class="main-logo">
         <span class="hide">socar</span>
@@ -24,6 +34,28 @@
       <span class="hamberger-rect"></span>
 
     </a>
+
+    <div class="hamberger-modal hide go-back">
+      <nav class="hamberger-menu-container">
+        <ul class="hamberger-menu-list">
+          <li class="hamberger-menu"><a href="#">혜택 안내</a></li>
+          <li class="hamberger-menu"><a href="#">쏘카존 개설 신청</a></li>
+          <li class="hamberger-menu"><a href="#">이용 안내</a></li>
+          <li class="hamberger-menu"><a href="#">요금 안내</a></li>
+        </ul>
+
+        <ul class="hamberger-menu-list">
+          <li class="hamberger-menu"><a href="#">쏘카의 서비스</a></li>
+          <li class="hamberger-menu"><a href="#"> 쏘카 비즈니스</a></li>
+          <li class="hamberger-menu"><a href="#"> 쏘카 플랜</a></li>
+        </ul>
+
+        <ul class="hamberger-menu-list">
+          <li class="hamberger-menu"><a href="#">회사소개</li></a>
+          <li class="hamberger-menu"><a href="#">공고</li></a>
+        </ul>
+      </nav>
+    </div>
   </header>
   <!-- background-img -->
   <section id="intro">
@@ -90,7 +122,8 @@
     </section>
 
     <section id="with-user">
-      <div class="with-user-wrap">
+      <div class="blue"></div>
+      <div class="text-wrap">
         <p class="user-innertext">
           <span class="font-blue">8,596,684</span>명의 회원이 쏘카와
           <br>
@@ -156,9 +189,8 @@
 
 
 
-  <script>
+  <script src="../js/index.js"></script>
 
-  </script>
 </body>
 
 </html>
