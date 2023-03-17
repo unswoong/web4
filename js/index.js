@@ -15,6 +15,6 @@ hambergerButton.addEventListener("click", (e) => {
   e.preventDefault();
 
   hambergerButton.classList.toggle("active");
-  hambergerModal.classList.toggle("hide");
+  hambergerModal.classList.toggle("hide-modal");
   hambergerModal.classList.toggle("go-back");
 });

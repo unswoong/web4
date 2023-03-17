@@ -130,7 +130,7 @@ header.hide-header {
   justify-content: flex-end;
 }
 
-.hamberger-modal .hide {
+.hamberger-modal .hide-modal {
   opacity: 0;
   transition: 0.5s;
 }
@@ -139,7 +139,7 @@ header.hide-header {
   z-index: -10;
 }
 
-.hamberger-modal.hide > nav {
+.hamberger-modal.hide-modal > nav {
   transform: translateX(100%);
 }
 
