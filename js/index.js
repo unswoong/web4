@@ -2,7 +2,7 @@ const header = document.querySelector("header");
 let 이전좌표 = window.scrollY;
 
 window.addEventListener("scroll", () => {
-  hambergerButton.classList.add("active");
+  hambergerButton.classList.remove("active");
   hambergerModal.classList.add("hide-modal");
   hambergerModal.classList.add("go-back");
 
